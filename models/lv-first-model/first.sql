@@ -14,6 +14,10 @@ with source_data as (
     select 'Paula' as name, 2343 as id, 20.00 as amount
     union all
     select 'Diorel  ' as name, 4321 as id, 20.00 as amount
+    union all
+    select 'Diorel  ' as name, 4321 as id, 25.00 as amount
+    union all
+    select 'Diorel  ' as name, 4321 as id, 10.00 as amount
 )
 
 select *
