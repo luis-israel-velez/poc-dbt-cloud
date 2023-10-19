@@ -4,3 +4,5 @@
 select id, sum(amount) as total_amount
 from {{ ref('first') }}
 group by id
+
+--Would this comment work?
